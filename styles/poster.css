@@ -15,8 +15,8 @@ body {
     background: #FFF;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../img/banner.png');
     background-repeat: no-repeat;
-    background-size: auto;
-    max-width: 1320px;
+    background-size: contain, contain;
+    max-width: 1350px;
     max-height: 600px;
     border-radius: 16px;
     color: white;
@@ -26,13 +26,14 @@ header div h3 {
     color: #FFF;
     font-size: 32px;
     font-weight: 400;
+
 }
 
 header div h2 {
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
-    padding-bottom: 180px;
+    padding-bottom: 110px;
 }
 
 /* main */
@@ -406,11 +407,11 @@ a {
 
 .tog {
     display: flex;
-    
+
 }
 
 .from {
-    padding: 25px 300px 25px 30px;
+    padding: 25px 200px 25px 30px;
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
@@ -418,7 +419,7 @@ a {
     font-weight: 400;
     border-radius: 50px 0px 0px 50px;
     border: none;
-    margin: 0px 0px 80px 250px;
+    margin: 0px 0px 80px 240px;
 }
 
 .btn-pri {
@@ -429,8 +430,48 @@ a {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    margin: 0px 250px 80px 0px;
+    margin: 0px 200px 80px 0px;
     text-transform: capitalize;
     padding: 24px 50px;
     border: none;
+}
+
+/* footer */
+footer {
+    background-color: #070211;
+    margin-top: 120px;
+    padding: 120px 140px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.one21,.one22{
+    display: flex;
+    margin-right: 120px;
+    max-height: 25px;
+   
+}
+.imo{
+   margin-top: 27px;
+   margin-right: 10px;
+}
+
+.footp {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.social{
+    margin: 50px 400px;
+   display: flex;
+   justify-content: space-between;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
