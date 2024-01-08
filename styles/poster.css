@@ -38,7 +38,7 @@ header div h2 {
 /* main */
 .off65 {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 120px 150px 0px 150px;
     background-color: #FFF;
 }
 
@@ -84,7 +84,6 @@ section div .oooo {
     border-radius: 16px;
     color: white;
     display: flex;
-    margin-top: 120px;
 
 }
 
@@ -115,6 +114,45 @@ section div .oooo {
     padding-left: 160px;
     padding-bottom: 140px;
 }
-.wel{
+
+.wel {
     padding: 70px 140px 70px 40px;
+}
+
+.address {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 150px 0px 150px;
+}
+
+.add {
+    padding: 80px 370px 0px 370px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.address .add .cr {
+    color: #F00;
+}
+
+.btn {
+    margin: 50px 550px 10px 550px;
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn .br {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
