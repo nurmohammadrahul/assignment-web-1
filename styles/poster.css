@@ -1,0 +1,120 @@
+/* shared */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* header */
+
+
+.headd {
+    text-align: center;
+    padding-top: 100px;
+    text-align: center;
+    margin: 50px 150px 0px 150px;
+    background: #FFF;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 1320px;
+    max-height: 600px;
+    border-radius: 16px;
+    color: white;
+}
+
+header div h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+header div h2 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 180px;
+}
+
+/* main */
+.off65 {
+    text-align: center;
+    margin-top: 120px;
+    background-color: #FFF;
+}
+
+section .o65 {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+section div .oo {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+section div .ooo {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+section div .oooo {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+/* welcome */
+.welcome {
+    text-align: left;
+    margin: 120px 140px 0px 140px;
+    background-image: url('../img/Vectorrr.png');
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 1320px;
+    max-height: 600px;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    margin-top: 120px;
+
+}
+
+.welcome-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    padding-left: 130px;
+    padding-top: 130px;
+}
+
+.welcome-des {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+.join {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 160px;
+    padding-bottom: 140px;
+}
+.wel{
+    padding: 70px 140px 70px 40px;
+}
